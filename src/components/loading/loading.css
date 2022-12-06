@@ -1,0 +1,14 @@
+.loading {
+    width: 32px;
+    height: 32px;
+    border: 3px solid white;
+    border-top: 3px solid transparent;
+    border-radius: 50%;
+    animation: 1.5s rotate linear infinite;
+}
+
+@keyframes rotate {
+    0% { transform: rotateZ(0deg)}
+    100% { transform: rotateZ(360deg)}
+}
+

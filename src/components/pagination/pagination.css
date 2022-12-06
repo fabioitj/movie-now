@@ -1,0 +1,43 @@
+.pagination {
+    position: fixed;
+    padding: 2em;
+    height: 2em;
+    bottom: 3em;
+    background-color: transparent;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--fonte-principal);
+    font-weight: 700;
+    background-color: var(--vermelho-transparente);
+    border-radius: 16px;
+    gap: 1em;
+}
+
+.actual-page {
+    color: var(--branco);
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.btn-prev, .btn-next {
+    padding: 1em;
+    border-radius: 50%;
+    background-color: var(--vermelho-escuro);
+    color: white;
+    border: 0;
+    font-size: 18px;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    padding: 0.7em;
+}
+
+.image-prev {
+    width: 100%;
+}
+
+.image-next {
+    width: 100%;
+}

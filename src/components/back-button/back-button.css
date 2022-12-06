@@ -1,0 +1,48 @@
+.back-button {
+    position: fixed;
+    /* right: 2em; */
+    margin: 0 auto;
+    bottom: 2em;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: come-from-bottom 0.2s linear;
+    text-decoration: none;
+    background-color: var(--vermelho);
+    border-radius: 50%;
+    padding: 2em;
+}
+
+.back-button-closed {
+    animation: go-to-bottom 0.2s linear;
+    bottom: -4em;
+}
+
+.back-button__image {
+    height: 24px;
+    width: 24px;
+}
+
+@keyframes come-from-bottom {
+    0% {
+        opacity: 0;
+        bottom: -4em;
+    }
+    100% {
+        opacity: 1;
+        bottom: 2em;
+    }
+}
+
+@keyframes go-to-bottom {
+    0% {
+        opacity: 1;
+        bottom: 2em;
+    }
+    100% {
+        opacity: 0;
+        bottom: -4em;
+    }
+}

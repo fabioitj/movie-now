@@ -1,13 +1,37 @@
+@import url("./fonts.css");
+
+:root {
+  --vermelho-escuro: #921212;
+  --vermelho: #b91919;
+  --vermelho-transparente: rgb(185, 25, 25, 0.5);
+  --vermelho-transparente-forte: rgb(185, 25, 25, 0.8);
+  --preto: #181818;
+  --cinza: #616161;
+  --cinza-claro: #e2e2e2;
+  --branco: #FFFFFF;
+  --fonte-principal: 'Inter', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: url('./images/cadeiras_cinema.png') no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
